@@ -1,0 +1,15 @@
+.header_container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_titles {
+    text-align: center;
+}
+
+.header_about {
+    text-align: center;
+}
