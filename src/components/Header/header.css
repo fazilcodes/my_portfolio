@@ -13,3 +13,7 @@
 .header_about {
     text-align: center;
 }
+
+.header_about p {
+    font-size: 1.3rem;
+}

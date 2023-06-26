@@ -14,14 +14,15 @@ export const Head = () => {
   return (
     <div className='container header_container'>
       <div className='header_titles'>
-        <h1>Hey, i'm <span>Fazil</span></h1>
+        <h1>Hey, i'm <span className='red'>Fazil</span></h1>
         <h2>Fullstack Developer</h2>
       </div>
       <div className='header_about'>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus obcaecati in totam qui ullam sit, quos maxime. Sit, illum sed ipsa quaerat soluta dolore ex labore! Vel at, dolores libero id,
-          sint, alias quae consequatur illum enim non aliquam architecto mollitia praesentium laborum. Magnam ratione nobis quo dicta officia neque!</p>
+        <p>I'm a full-stack developer who loves to code and build things. Looking forward to find a job so i can showcase my love for coding and i prefer
+          a company which have free ☕ available 😆.
+        </p>
       </div>
-      <button onClick={confetti_btn} className='btn'>Click Here</button>
+      <button onClick={confetti_btn} className='btn'>Like✋</button>
     </div>
   )
 }
